@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mitos ou Fatos da Odontologia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dental-background"></div>
+
+    <header>
+
+        <div class="badge"> HELLEN PEREIRA 3A</div>
+
+        <h1>MITOS <span>OU</span> FATOS?</h1>
+
+        <p>
+            Descubra o que é verdade e o que é mito quando o assunto é
+            odontologia, usando informações baseadas em fontes confiáveis.
+        </p>
+
+    </header>
+
+
+    <main>
+
+        <section class="card mito">
+
+            <span class="tag mito">MITO</span>
+
+            <h2> “Quanto mais forte eu escovar, melhor.”</h2>
+
+            <p>
+                A força excessiva não significa uma limpeza melhor e pode
+                prejudicar a gengiva. A escovação deve ser feita de maneira
+                cuidadosa e adequada.
+            </p>
+
+            <img src="https://th.bing.com/th/id/R.da94689f5c0b51047e22933316d3e469?rik=gslZa2FQNTj3pA&riu=http%3a%2f%2fpellasmiles.com%2fwp-content%2fuploads%2f2015%2f04%2f8-Easy-Ways-to-Prevent-Tooth-Decay-Gum-Disease.jpg&ehk=8b2IzFDjeW1RdMW0IwzEBXt2WL4%2bJESR01mmS1nOcMw%3d&risl=&pid=ImgRaw&r=0" alt="Imagem sobre odontologia">
+
+            <button class="btn-like" onclick="curtir(this)">
+                ♡ Curtir
+            </button>
+
+        </section>
+
+
+        <section class="card fato">
+
+            <span class="tag fato">FATO</span>
+
+            <h2> “O fio dental ajuda a limpar entre os dentes.”</h2>
+
+            <p>
+                O fio dental complementa a escovação ao alcançar regiões entre
+                os dentes que a escova não consegue limpar adequadamente.
+            </p>
+
+            <img src="https://maisodonto.com/wp-content/uploads/2020/04/passar-fio-dental.png" alt="Uso do fio dental">
+
+            <button class="btn-like" onclick="curtir(this)">
+                ♡ Curtir
+            </button>
+
+        </section>
+
+
+        <section class="card fato">
+
+            <span class="tag fato">FATO</span>
+
+            <h2> “O açúcar está relacionado à cárie.”</h2>
+
+            <p>
+                Bactérias presentes na boca utilizam açúcares da alimentação
+                para produzir ácidos que podem contribuir para a destruição
+                dos dentes e o desenvolvimento da cárie.
+            </p>
+
+            <img src="https://portaldrauziovarella.nyc3.digitaloceanspaces.com/wp-content/uploads/2025/02/12135528/2025_02_SITE_FRIA_Carie-como-prevenir-e-tratar_1200x676_schigirin91.jpg" alt="Cárie e saúde bucal">
+
+            <button class="btn-like" onclick="curtir(this)">
+                ♡ Curtir
+            </button>
+
+        </section>
+
+
+        <section class="card fato">
+
+            <span class="tag fato">FATO</span>
+
+            <h2> “A saliva ajuda na proteção da boca.”</h2>
+
+            <p>
+                A saliva participa da proteção da boca e dos dentes. Alterações
+                na quantidade de saliva podem aumentar o risco de alguns
+                problemas bucais.
+            </p>
+
+            <img src="https://www.idealodonto.com.br/blog/wp-content/uploads/2025/01/bacterias-beneficas-e-patogenicas-na-boca.jpg" alt="Bactérias presentes na boca">
+
+            <button class="btn-like" onclick="curtir(this)">
+                ♡ Curtir
+            </button>
+
+        </section>
+
+
+        <section class="card mito">
+
+            <span class="tag mito">MITO</span>
+
+            <h2> “Receitas caseiras de internet são sempre seguras."</h2>
+
+            <p>
+                Nem todo produto ou procedimento divulgado na internet é seguro.
+                Tratamentos odontológicos caseiros podem trazer riscos quando
+                realizados sem orientação profissional.
+            </p>
+
+          <img src="https://www.espace-pour-vous.com/wp-content/uploads/2023/01/Astuce-Pour-Avoir-Les-Dents-Blanches.jpg" alt="Dentes brancos">
+
+            <button class="btn-like" onclick="curtir(this)">
+                ♡ Curtir
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Trabalho de programação - Professor Anderson Roubles
+        </p>
+
+    </footer>
+
+
+    <script>
+
+        function curtir(botao) {
+
+            if (botao.innerText.includes("♡")) {
+
+                botao.innerText = "♥ Curtido!";
+
+            } else {
+
+                botao.innerText = "♡ Curtir";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>

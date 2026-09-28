@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Nunito', Arial, sans-serif;
+
+    background: #F4FBFC;
+
+    color: #294A54;
+
+    min-height: 100vh;
+}
+
+.dental-background {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: -1;
+
+    opacity: 0.13;
+
+    pointer-events: none;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cpath d='M55 43 C45 34 32 39 32 51 C32 63 39 69 40 82 C41 98 45 111 52 111 C58 111 61 98 65 87 C69 98 72 111 78 111 C85 111 89 98 90 82 C91 69 98 63 98 51 C98 39 85 34 75 43 C68 49 62 49 55 43Z' fill='none' stroke='%236FAFC0' stroke-width='2'/%3E%3C/svg%3E");
+
+    background-repeat: repeat;
+
+    background-size: 180px 180px;
+}
+
+header {
+
+    text-align: center;
+
+    padding: 55px 20px 35px;
+}
+
+.badge {
+    display: inline-block;
+    background: #E7F7FA;
+    color: #2F6F7E;
+    border: 1px solid #C9E3E8;
+    border-radius: 30px;
+    padding: 8px 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+header h1 {
+
+    font-family: 'Baloo 2', sans-serif;
+
+    font-size: clamp(2.6rem, 7vw, 5.2rem);
+
+    line-height: 0.95;
+
+    letter-spacing: -1px;
+
+    color: #2F6F7E;
+
+    text-shadow: 3px 3px 0 #D7F0F4;
+
+    margin-bottom: 18px;
+}
+
+
+header h1 span {
+
+    color: #6FAFC0;
+}
+
+
+header p {
+
+    max-width: 720px;
+
+    margin: auto;
+
+    line-height: 1.7;
+
+    font-size: 1.08rem;
+}
+
+
+main {
+
+    width: 90%;
+
+    max-width: 1050px;
+
+    margin: 0 auto;
+}
+
+.card {
+
+    background: rgba(255, 255, 255, 0.96);
+
+    margin-bottom: 22px;
+
+    padding: 26px;
+
+    border: 1px solid #D7E9ED;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 18px rgba(47, 111, 126, 0.07);
+
+    text-align: center;
+}
+
+
+.card.mito {
+
+    border-left: 6px solid #6FAFC0;
+}
+
+
+
+.card.fato {
+
+    border-left: 6px solid #3E9B86;
+}
+
+
+.card h2 {
+
+    color: #2F6F7E;
+
+    margin-bottom: 12px;
+
+    font-family: 'Baloo 2', sans-serif;
+
+    font-size: 1.55rem;
+}
+
+
+.card p {
+
+    line-height: 1.7;
+
+    margin-bottom: 16px;
+}
+.card img {
+    width: 70%;
+    max-width: 600px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+
+.tag {
+
+    display: inline-block;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    font-size: 1,5rem;
+
+    font-weight: 800;
+
+    margin-bottom: 12px;
+}
+
+
+.tag.mito {
+
+    background: #E8F7FA;
+
+    color: #2F6F7E;
+}
+
+
+.tag.fato {
+
+    background: #E9F7F2;
+
+    color: #287862;
+}
+
+
+.btn-like {
+
+    background: #EEF8FA;
+
+    color: #2F6F7E;
+
+    margin: 5px 0;
+
+    padding: 10px 15px;
+
+    border: 1px solid #C9E3E8;
+
+    border-radius: 11px;
+
+    cursor: pointer;
+
+    font-family: 'Nunito', Arial, sans-serif;
+
+    font-weight: 700;
+
+    transition: 0.2s;
+}
+
+
+.btn-like:hover {
+
+    background: #DFF2F5;
+
+    transform: translateY(-1px);
+}
+
+
+footer {
+
+    margin-top: 35px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    color: #55717A;
+
+    font-size: 1,6rem;
+}
+
+
+@media (max-width: 700px) {
+
+    header {
+
+        padding-top: 35px;
+    }
+
+
+    header h1 {
+
+        font-size: 2.8rem;
+    }
+
+
+    .card {
+
+        padding: 20px;
+    }
+
+}
